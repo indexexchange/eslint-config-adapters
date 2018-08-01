@@ -30,6 +30,10 @@ module.exports = {
         'no-inner-declarations': ['error', 'functions'],
         'no-magic-numbers': ['off'],
         'no-var': ['off'],
+        'no-param-reassign': ['off'],
+        'multiline-comment-style': ['off'],
+        'init-declarations': ['off'],
+        'func-names': ['off'],
         'spaced-comment': [
             'error',
             'always',
@@ -46,12 +50,6 @@ module.exports = {
         ],
         'valid-jsdoc': ['off'],
         'require-jsdoc': ['off'],
-        'new-cap': ['off'],
-        'newline-per-chained-call': [
-            'error',
-            {
-                'ignoreChainWithDepth': 2
-            }
-        ]
+        'new-cap': ['off']
     }
 };
