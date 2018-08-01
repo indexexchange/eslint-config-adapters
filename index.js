@@ -6,7 +6,7 @@ module.exports = {
         'eslint-config-base/4.13.1/strict-mode',
         'eslint-config-base/4.13.1/variables',
         'eslint-config-base/4.13.1/nodejs-and-commonjs',
-        'eslint-config-base/4.13.1/main/stylistic-issues'
+        'eslint-config-base/4.13.1/stylistic-issues'
     ],
 
     'parserOptions': {
