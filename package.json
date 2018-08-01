@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-adapters",
+  "version": "1.0.0",
+  "description": "Index Exchange's adapter-specific ESLint runtime configuration.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indexexchange/eslint-config-adapters.git"
+  },
+  "author": "Index Exchange",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-base": "git+https://github.com/indexexchange/eslint-config-base.git"
+  }
+}
