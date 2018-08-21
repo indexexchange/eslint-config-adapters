@@ -50,6 +50,7 @@ module.exports = {
         ],
         'valid-jsdoc': ['off'],
         'require-jsdoc': ['off'],
-        'new-cap': ['off']
+        'new-cap': ['off'],
+        'linebreak-style': ['off']
     }
 };
