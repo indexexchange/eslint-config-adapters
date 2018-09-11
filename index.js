@@ -51,6 +51,15 @@ module.exports = {
         'valid-jsdoc': ['off'],
         'require-jsdoc': ['off'],
         'new-cap': ['off'],
-        'linebreak-style': ['off']
+        'linebreak-style': ['off'],
+        'max-len': [
+            'error',
+            {
+                'code': 120,
+                'ignoreUrls': true,
+                'ignoreTemplateLiterals': true,
+                'ignoreRegExpLiterals': true
+            }
+        ]
     }
 };
