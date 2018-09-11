@@ -61,5 +61,20 @@ module.exports = {
                 'ignoreRegExpLiterals': true
             }
         ]
+    },
+
+    'overrides': {
+        'files': ['*-system-tests.js'],
+
+        'env': {
+            'browser': true,
+            'commonjs': true,
+            'jasmine': true
+        },
+
+        'rules': {
+            'newline-per-chained-call': ['off'],
+            'camelcase': ['off']
+        }
     }
 };
